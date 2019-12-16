@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576473843669,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.apache.ibatis.binding.BindingException",
+  "message": "Invalid bound statement (not found): com.example.net.dao.AcvtityDao.findInfoByTpye",
+  "path": "/activity/findInfoByTpye/%E8%B6%B3%E7%90%83"
+}

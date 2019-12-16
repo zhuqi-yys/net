@@ -1,0 +1,320 @@
+GET http://localhost:8080/activity/findInfoByType/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T020319.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T020304.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T020252.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T012942.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByTpye/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T012907.404.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByTpye/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T012527.404.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByTpye/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T012403.500.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByType/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T012331.404.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T011953.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T011841.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T011827.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T011708.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T011643.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByName/琦玉
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T103603.200.json
+
+###
+
+GET http://localhost:8080/event/findEventByType/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T100748.200.json
+
+###
+
+GET http://localhost:8080/person/findStudentIdById/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T100730.200.txt
+
+###
+
+GET http://localhost:8080/findStudentIdById/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T100725.200.txt
+
+###
+
+GET http://localhost:8080/findEventByType/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T100042.200.json
+
+###
+
+GET http://localhost:8080/findEventByType/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T100007.200.json
+
+###
+
+GET http://localhost:8080/findEventByType/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T095919-1.500.json
+
+###
+
+GET http://localhost:8080/findEventByType/足球
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T095919.500.json
+
+###
+
+GET http://localhost:8080/findEventByName/足球1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T095435.200.json
+
+###
+
+GET http://localhost:8080/findStudentIdById/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-16T094131.200.txt
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T114405.200.txt
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T114243.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T114202.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T114125.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113701.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113658.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113648.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113310.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113208.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113115.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113015.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T113012.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T112930.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T112928.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T112924.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T112915.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-15T112744.500.json
+
+###
+

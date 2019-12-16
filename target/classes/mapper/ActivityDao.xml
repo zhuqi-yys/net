@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.net.dao.AcvtityDao">
+
+    <select id="findInfoByName" resultType="com.example.net.entity.Info">
+       SELECT person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
+		event.size,event.remark,event.organizer,activity.evaluation
+        from person,event,activity
+        WHERE
+        person.pid = activity.pid AND
+        activity.eid = event.eid and
+        person.name = #{name};
+
+    </select>
+
+    <select id="findInfoByType" resultType="com.example.net.entity.Info">
+       SELECT person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
+		event.size,event.remark,event.organizer,activity.evaluation
+        from person,event,activity
+        WHERE
+        person.pid = activity.pid AND
+        activity.eid = event.eid and
+        event.type = #{type};
+
+    </select>
+
+
+
+
+</mapper>
