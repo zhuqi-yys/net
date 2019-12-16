@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576480039629,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.springframework.jdbc.BadSqlGrammarException",
+  "message": "\r\n### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'activity.id' in 'field list'\r\n### The error may exist in file [F:\\intellij\\code\\net\\target\\classes\\mapper\\ActivityDao.xml]\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: SELECT activity.id,event.id,person.id,person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,   event.size,event.remark,event.organizer,activity.evaluation         from person,event,activity         WHERE         person.pid = activity.pid AND         activity.eid = event.eid and         person.name = ?;\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'activity.id' in 'field list'\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'activity.id' in 'field list'",
+  "path": "/activity/findInfoByName/%E7%90%A6%E7%8E%89"
+}

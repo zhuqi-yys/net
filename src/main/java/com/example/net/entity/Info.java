@@ -4,6 +4,12 @@ import java.util.Date;
 
 public class Info {
 
+    int aid;
+    int eid;
+    int pid;
+
+
+
     //person 相关信息
     String studnetId;//应该是person Id,但是数据库这样写了，就不改了
     String personName;
@@ -21,6 +27,23 @@ public class Info {
     //活动相关信息
     String evaluation;
 
+    public Info(int aid, int eid, int pid, String studnetId, String personName, String eventName, String location, Date startTime, Date endTime, String type, int size, String remark, String organizer, String evaluation) {
+        this.aid = aid;
+        this.eid = eid;
+        this.pid = pid;
+        this.studnetId = studnetId;
+        this.personName = personName;
+        this.eventName = eventName;
+        this.location = location;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.type = type;
+        this.size = size;
+        this.remark = remark;
+        this.organizer = organizer;
+        this.evaluation = evaluation;
+    }
+
     public Info(String studnetId, String personName, String eventName, String location, Date startTime, Date endTime, String type, int size, String remark, String organizer, String evaluation) {
         this.studnetId = studnetId;
         this.personName = personName;
@@ -33,6 +56,30 @@ public class Info {
         this.remark = remark;
         this.organizer = organizer;
         this.evaluation = evaluation;
+    }
+
+    public int getAid() {
+        return aid;
+    }
+
+    public void setAid(int aid) {
+        this.aid = aid;
+    }
+
+    public int getEid() {
+        return eid;
+    }
+
+    public void setEid(int eid) {
+        this.eid = eid;
+    }
+
+    public int getPid() {
+        return pid;
+    }
+
+    public void setPid(int pid) {
+        this.pid = pid;
     }
 
     public String getStudnetId() {

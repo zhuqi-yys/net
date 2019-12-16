@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -25,5 +26,11 @@ public class EventService {
         return eventDao.findEventByType(type);
     }
 
+    public int insertEvent(String name, String location,
+                           Date startTime, Date endTime, String type,
+                           int size, String remark, String organizer)
+    {
+        return eventDao.insertEvent(name,location,startTime,endTime,type,size,remark,organizer);
+    };
 
 }

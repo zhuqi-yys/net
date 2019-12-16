@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -25,5 +26,14 @@ public class ActivityService {
     public List<Info> findInfoByType(String type){
         return acvtityDao.findInfoByType(type);
     }
+
+
+    public int insertActivity(int eid,int pid)
+    {
+        return  acvtityDao.insertActivity(eid,pid);
+    }
+
+
+
 
 }

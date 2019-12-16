@@ -18,5 +18,13 @@
     </select>
 
 
+    <insert id="insertEvent" useGeneratedKeys="false"  keyProperty="id" >
+        insert into event
+        (name,location,start_time,end_time,type,size,remark,organizer)
+        values(#{name},#{location},#{startTime},#{endTime},#{type},#{size},#{remark},#{organizer})
+    </insert>
+
+
+
 
 </mapper>

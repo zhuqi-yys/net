@@ -1,8 +1,8 @@
 {
-  "timestamp": 1576423664680,
+  "timestamp": 1576478506488,
   "status": 500,
   "error": "Internal Server Error",
   "exception": "java.lang.NullPointerException",
   "message": "No message available",
-  "path": "/test/1"
+  "path": "/activity/insertEvent"
 }

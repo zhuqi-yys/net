@@ -1,8 +1,0 @@
-{
-  "timestamp": 1576423755311,
-  "status": 500,
-  "error": "Internal Server Error",
-  "exception": "java.lang.NullPointerException",
-  "message": "No message available",
-  "path": "/test/1"
-}

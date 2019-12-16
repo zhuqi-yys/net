@@ -1,0 +1,34 @@
+[
+  {
+    "aid": 1,
+    "eid": 1,
+    "pid": 1,
+    "studnetId": "MF1932272",
+    "personName": "琦玉",
+    "eventName": "琦玉",
+    "location": "1号足球场",
+    "startTime": 1576146600000,
+    "endTime": 1576153800000,
+    "type": "足球",
+    "size": 24,
+    "remark": null,
+    "organizer": "琦玉",
+    "evaluation": "踢足球真开心"
+  },
+  {
+    "aid": 3,
+    "eid": 2,
+    "pid": 1,
+    "studnetId": "MF1932272",
+    "personName": "琦玉",
+    "eventName": "琦玉",
+    "location": "1号篮球场",
+    "startTime": 1576123200000,
+    "endTime": 1576303200000,
+    "type": "篮球",
+    "size": 10,
+    "remark": null,
+    "organizer": "饿狼",
+    "evaluation": "打篮球不开心"
+  }
+]

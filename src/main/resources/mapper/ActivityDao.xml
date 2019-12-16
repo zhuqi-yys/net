@@ -4,7 +4,7 @@
 <mapper namespace="com.example.net.dao.AcvtityDao">
 
     <select id="findInfoByName" resultType="com.example.net.entity.Info">
-       SELECT person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
+       SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
 		event.size,event.remark,event.organizer,activity.evaluation
         from person,event,activity
         WHERE
@@ -15,7 +15,7 @@
     </select>
 
     <select id="findInfoByType" resultType="com.example.net.entity.Info">
-       SELECT person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
+       SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
 		event.size,event.remark,event.organizer,activity.evaluation
         from person,event,activity
         WHERE
@@ -24,6 +24,14 @@
         event.type = #{type};
 
     </select>
+
+    <insert id="insertActivity" useGeneratedKeys="false"  keyProperty="id" >
+        insert into activity
+        (eid,pid)
+        values(#{eid},#{pid})
+    </insert>
+
+
 
 
 
