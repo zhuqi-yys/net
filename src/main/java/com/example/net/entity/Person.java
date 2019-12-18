@@ -34,6 +34,9 @@ public class Person {
         this.name = name;
     }
 
+
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -43,6 +46,8 @@ public class Person {
                 Objects.equals(studentid, person.studentid) &&
                 Objects.equals(name, person.name);
     }
+
+
 
     @Override
     public int hashCode() {

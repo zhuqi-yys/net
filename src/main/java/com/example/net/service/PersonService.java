@@ -22,5 +22,9 @@ public class PersonService {
         return personDao.findStudentIDByID(pid);
     }
 
+    public String login(String name,String studentid)
+    {
+        return personDao.login(name,studentid);
+    }
 
 }

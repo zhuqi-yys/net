@@ -13,4 +13,12 @@
         where
         pid = #{pid}
     </select>
+
+    <select id="login" resultType="String">
+        select name from person
+        where name = #{name}
+        and studentid = #{studentid}
+
+    </select>
+
 </mapper>

@@ -27,7 +27,12 @@ public class PersonController {
         return personService.findStudentIDByID(id);
     }
 
-
+    @RequestMapping(value = "/login/{name}/{studentid}",method = RequestMethod.GET)
+    @ResponseBody
+    public String login(@PathVariable("name")String name,@PathVariable("studentid")String studentid)
+    {
+        return personService.login(name,studentid);
+    }
 
 
 
