@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576650312557,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.mybatis.spring.MyBatisSystemException",
+  "message": "nested exception is org.apache.ibatis.exceptions.PersistenceException: \r\n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)\r\n### The error may exist in file [F:\\intellij\\code\\net\\target\\classes\\mapper\\ActivityDao.xml]\r\n### The error may involve com.example.net.dao.AcvtityDao.findInfo\r\n### The error occurred while executing a query\r\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)",
+  "path": "/activity/findInfo"
+}
