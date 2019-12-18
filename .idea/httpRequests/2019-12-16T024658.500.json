@@ -1,8 +1,0 @@
-{
-  "timestamp": 1576478818668,
-  "status": 500,
-  "error": "Internal Server Error",
-  "exception": "org.mybatis.spring.MyBatisSystemException",
-  "message": "nested exception is org.apache.ibatis.executor.ExecutorException: Error getting generated key or setting result to parameter object. Cause: org.apache.ibatis.executor.ExecutorException: Could not determine which parameter to assign generated keys to. Note that when there are multiple parameters, 'keyProperty' must include the parameter name (e.g. 'param.id'). Specified key properties are [id] and available parameters are [param7, param8, param5, param6, remark, param3, type, param4, param1, param2, size, organizer, name, location, startTime, endTime]",
-  "path": "/activity/insertEvent"
-}

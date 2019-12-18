@@ -1,8 +1,0 @@
-{
-  "timestamp": 1576461559655,
-  "status": 500,
-  "error": "Internal Server Error",
-  "exception": "org.springframework.web.bind.MissingPathVariableException",
-  "message": "Missing URI template variable 'typpe' for method parameter of type String",
-  "path": "/findEventByType/%E8%B6%B3%E7%90%83"
-}
