@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5b9923-0208-4028-900e-d099d43fc3a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-12-18T025724.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-12-18T030505.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-12-18T031414.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/net/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/net/entity/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/net/entity/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/net/entity/Info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ActivityDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ActivityDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/net/entity/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/net/entity/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/net/entity/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/net/entity/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/net/entity/InfoWithStat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/net/entity/InfoWithStat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ActivityDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ActivityDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="209">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -179,7 +167,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -377,12 +365,12 @@
       <updated>1576646637605</updated>
       <workItem from="1576646645430" duration="442000" />
       <workItem from="1576647168469" duration="1891000" />
-      <workItem from="1576649393156" duration="2839000" />
+      <workItem from="1576649393156" duration="3349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5172000" />
+    <option name="totallyTimeSpent" value="5682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -531,8 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="209">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
