@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576657546148,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.http.converter.HttpMessageNotReadableException",
+  "message": "Required request body is missing: public java.lang.String com.example.net.controller.PersonController.login(org.json.JSONObject) throws org.json.JSONException",
+  "path": "/person/login"
+}

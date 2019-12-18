@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576660175105,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.http.converter.HttpMessageNotReadableException",
+  "message": "Required request body is missing: public java.lang.String com.example.net.controller.PersonController.login(com.example.net.entity.Student)",
+  "path": "/person/login"
+}

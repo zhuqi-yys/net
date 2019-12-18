@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 @RequestMapping("/person")
 @Controller
 public class PersonController {
@@ -27,13 +30,24 @@ public class PersonController {
         return personService.findStudentIDByID(id);
     }
 
-    @RequestMapping(value = "/login/{name}/{studentid}",method = RequestMethod.GET)
+//    @PostMapping(value = "/logins")
+//    public String login(@RequestBody Student student)  {
+//        String name = student.getName();
+//        String studentid = student.getStudentid();
+//        return personService.login(name,studentid);
+//    }
+
+    @RequestMapping("/login")
     @ResponseBody
-    public String login(@PathVariable("name")String name,@PathVariable("studentid")String studentid)
-    {
-        return personService.login(name,studentid);
+    public String demo(HttpServletRequest request, HttpServletResponse response) {
+        response.setContentType("textml;charset=utf-8");
+        /* 设置响应头允许ajax跨域访问 */
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        /* 星号表示所有的异域请求都可以接受， */
+        response.setHeader("Access-Control-Allow-Methods", "GET,POST");
+        String name = request.getParameter("name");
+        String studentid = request.getParameter("studentid");
+       return personService.login(name,studentid);
     }
-
-
 
 }
