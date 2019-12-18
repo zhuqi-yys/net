@@ -4,18 +4,17 @@
 <mapper namespace="com.example.net.dao.AcvtityDao">
 
     <select id="findInfoByName" resultType="com.example.net.entity.Info">
-       SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
+       SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name eName,event.location,event.start_time,event.end_time,event.type,
 		event.size,event.remark,event.organizer,activity.evaluation
         from person,event,activity
         WHERE
         person.pid = activity.pid AND
         activity.eid = event.eid and
         person.name = #{name};
-
     </select>
 
     <select id="findInfoByType" resultType="com.example.net.entity.Info">
-       SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
+       SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name eName,event.location,event.start_time,event.end_time,event.type,
 		event.size,event.remark,event.organizer,activity.evaluation
         from person,event,activity
         WHERE
@@ -32,7 +31,7 @@
     </insert>
 
     <select id="findInfo" resultType="com.example.net.entity.Info">
-       SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name,event.location,event.start_time,event.end_time,event.type,
+      SELECT activity.aid,event.eid,person.pid,person.studentid,person.name pName,event.name eName,event.location,event.start_time,event.end_time,event.type,
 		event.size,event.remark,event.organizer,activity.evaluation
         from person,event,activity
     WHERE person.pid = activity.pid AND
