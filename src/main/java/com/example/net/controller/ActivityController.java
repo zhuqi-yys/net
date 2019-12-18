@@ -2,6 +2,7 @@ package com.example.net.controller;
 
 
 import com.example.net.dao.AcvtityDao;
+import com.example.net.entity.Activity;
 import com.example.net.entity.Info;
 import com.example.net.service.ActivityService;
 import org.apache.ibatis.annotations.Param;
@@ -43,7 +44,11 @@ public class ActivityController {
         return activityService.insertActivity(pid,eid);
     }
 
-
+    @RequestMapping(value = "/findInfo")
+    @ResponseBody
+    public List<Info>  findInfo(){
+        return activityService.findInfo();
+    }
 
 
 }

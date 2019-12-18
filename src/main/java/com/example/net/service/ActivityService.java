@@ -33,7 +33,9 @@ public class ActivityService {
         return  acvtityDao.insertActivity(eid,pid);
     }
 
-
+    public List<Info> findInfo(){
+        return acvtityDao.findInfo();
+    }
 
 
 }

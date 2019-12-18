@@ -20,4 +20,6 @@ public interface AcvtityDao {
 
     int insertActivity(@Param("eid")int eid,@Param("pid")int pid);
 
+    List<Info> findInfo();
+
 }
