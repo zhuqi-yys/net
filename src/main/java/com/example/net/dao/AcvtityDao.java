@@ -15,6 +15,10 @@ import java.util.List;
 public interface AcvtityDao {
 
 
+    int updateEvaluation(@Param("eid")int eid,@Param("pid")int pid ,@Param("evaluation")String evaluation);
+
+    List<Info> findInfoByEid(@Param("eid")int eid);
+
     List<Info> findInfoByName(@Param("name")String name);
 
     List<Info> findInfoByType(@Param("type")String type);

@@ -1,3 +1,147 @@
+GET http://localhost:8080/activity/insertEvaluation/6/6/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T045107.200.json
+
+###
+
+GET http://localhost:8080/insertEvaluation/6/6/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T045042.404.json
+
+###
+
+GET http://localhost:8080/insertEvaluation/6/6/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044844.404.json
+
+###
+
+GET http://localhost:8080/insertEvaluation/6/6/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044710.404.json
+
+###
+
+GET http://localhost:8080/insertEvaluation/3/5/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044629.404.json
+
+###
+
+GET http://localhost:8080/insertEvaluation/5/3/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044621.404.json
+
+###
+
+GET http://localhost:8080/updateEvaluation/5/3/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044528.404.json
+
+###
+
+GET http://localhost:8080/updateEvaluation/5/3/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044509.404.json
+
+###
+
+GET http://localhost:8080/updateEvaluation/insertEvaluation/5/3/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044500.404.json
+
+###
+
+GET http://localhost:8080/updateEvaluation/insertEvaluation/5/3/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044447.404.json
+
+###
+
+GET http://localhost:8080/activity/insertEvaluation/5/3/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044337.200.json
+
+###
+
+GET http://localhost:8080/activity/insertEvaluation/5/3/踢足球真累?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T044051.500.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByEid/1?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T042930.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByEid/1?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T042818.404.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByAid/1?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T042809.404.json
+
+###
+
+GET http://localhost:8080/activity/findInfoByAid/1?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T042557.200.json
+
+###
+
 POST http://localhost:8080/event/insertEvent?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
 Accept: */*
 Cache-Control: no-cache
@@ -301,146 +445,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 <> 2019-12-19T025522.500.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/6?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T025411.200.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/6?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T025307.200.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/6?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T025306.200.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/6?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T025305.200.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/6?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T025235.200.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/6?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T025134.200.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/6?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T024938.500.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/1?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T024918.200.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/1?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T024755.500.json
-
-###
-
-GET http://localhost:8080/activity/insertActivity/1/1?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T024641.500.json
-
-###
-
-POST http://118.178.18.181:58015/person/login?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T023144.200.json
-
-###
-
-POST http://118.178.18.181:58015/person/login?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://127.0.0.1:8080/person/login?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://127.0.0.1:8080/person/login?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T022142.200.json
-
-###
-
-GET http://127.0.0.1:8080/activity/findInfo?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T010515.200.json
-
-###
-
-GET http://127.0.0.1:8080/event/findEventByName/足球1?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T010141.200.json
 
 ###
 

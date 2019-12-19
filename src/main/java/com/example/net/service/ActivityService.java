@@ -42,4 +42,15 @@ public class ActivityService {
     {
         return acvtityDao.search(eid,pid);
     }
+
+    public List<Info> findInfoByAid(int eid)
+    {
+        return acvtityDao.findInfoByEid(eid);
+    }
+
+    public int updateEvaluation(int eid,int pid,String evaluation)
+    {
+        return  acvtityDao.updateEvaluation(eid,pid,evaluation);
+    }
+
 }

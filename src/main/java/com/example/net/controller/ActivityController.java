@@ -30,9 +30,6 @@ public class ActivityController {
     @RequestMapping(value = "/findInfoByName/{name}")
     @ResponseBody
     public InfoWithSize findInfoByName(@PathVariable("name")String name){
-
-       // return activityService.findInfoByName(name);
-
         return new InfoWithSize(activityService.findInfoByName(name),activityService.findInfoByName(name).size());
     }
     //根据类型进行查询       比如查足球
@@ -41,6 +38,15 @@ public class ActivityController {
     public List<Info> findInfoByType(@PathVariable("type")String type){
         return activityService.findInfoByType(type);
     }
+
+    //根据姓名进行activity 进行查询
+    @RequestMapping(value = "/findInfoByEid/{eid}")
+    @ResponseBody
+    public List<Info> findInfoByAid(@PathVariable("eid")int eid){
+        return activityService.findInfoByAid(eid);
+    }
+
+
 
     //插入     aid 和eid 要根据前端传过来的进行输入
     @RequestMapping(value = "/insertActivity/{pid}/{eid}")
@@ -61,6 +67,15 @@ public class ActivityController {
     @ResponseBody
     public List<Event>  findInfo(){
         return activityService.findInfo();
+    }
+
+    //插入     aid 和eid 要根据前端传过来的进行输入
+    @RequestMapping(value = "/insertEvaluation/{pid}/{eid}/{evaluation}")
+    @ResponseBody
+    public int  insertEvaluation(@PathVariable("pid")int pid,@PathVariable("eid")int eid,@PathVariable("evaluation")String evaluation){
+
+        return activityService.updateEvaluation(pid,eid,evaluation);
+
     }
 
 
