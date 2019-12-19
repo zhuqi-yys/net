@@ -1,6 +1,7 @@
 package com.example.net.dao;
 
 
+import com.example.net.entity.Person;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -13,7 +14,7 @@ public interface PersonDao {
 
     String findStudentIDByID(@Param("pid")int pid);
 
-    String login(@Param("name")String name,@Param("studentid")String studentid);
+    Person login(@Param("name")String name, @Param("studentid")String studentid);
 
 
 

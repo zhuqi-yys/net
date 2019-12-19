@@ -1,6 +1,7 @@
 package com.example.net.controller;
 
 
+import com.example.net.entity.Person;
 import com.example.net.service.PersonService;
 import com.example.net.util.RequestAndResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +35,7 @@ public class PersonController {
 
     @RequestMapping("/login")
     @ResponseBody
-    public String demo(HttpServletRequest request, HttpServletResponse response) {
+    public Person demo(HttpServletRequest request, HttpServletResponse response) {
         RequestAndResponse.formmat(request,response);
         String name = request.getParameter("name");
         String studentid = request.getParameter("studentid");

@@ -47,6 +47,7 @@ public class ActivityController {
     public int  insertActivity(@PathVariable("pid")int pid,@PathVariable("eid")int eid){
         return activityService.insertActivity(pid,eid);
     }
+
     @RequestMapping(value = "/findInfo")
     @ResponseBody
     public List<Info>  findInfo(){

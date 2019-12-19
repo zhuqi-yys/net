@@ -2,7 +2,9 @@ package com.example.net.controller;
 
 
 import com.example.net.entity.Event;
+import com.example.net.entity.Person;
 import com.example.net.service.EventService;
+import com.example.net.util.RequestAndResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -39,35 +43,50 @@ public class EventController {
         return eventService.findEventByType(type);
     }
 
-
+//    @RequestMapping("/login")
+//    @ResponseBody
+//    public int insertEvent(HttpServletRequest request, HttpServletResponse response) {
+//        RequestAndResponse.formmat(request,response);
+//        String name = request.getParameter("name");
+//        String location = request.getParameter("location");
+//       // Date startTime = request.getParameter("start_time");
+//        Date endTime = startTime;
+//        String type = request.getParameter("type");
+//      //  int size = request.getParameter("size");
+//        String remark = request.getParameter("remark");
+//        String organizer = request.getParameter("organizer");
+//        return eventService.insertEvent(name, location,
+//                startTime, endTime,type,
+//        size, remark, organizer);
+//    }
     //发起一个活动，  这里面的数据都要从前端进行获取
-    @RequestMapping(value = "/insertEvent")
-    @ResponseBody
-    public int insertEvent(){
-        //获取当前日期
-        Date day=new Date();
-        //调整成指定的格式
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        //开始时间
-        Date startTime=null;
-        try {
-            startTime = sdf.parse(sdf.format(day));
-        } catch (ParseException e) {
-            // TODO 自动生成 catch 块
-            e.printStackTrace();
-        }
-        Calendar ca=Calendar.getInstance();
-        ca.setTime(startTime);
-        //这里我自己加了三个小时，根据具体的情况进行修改
-        ca.add(Calendar.HOUR_OF_DAY, 3);
-        //结束时间
-        Date endTime = ca.getTime();
-
-
-        //这里的数据是我自己写的，需要通过前端获得
-        return eventService.insertEvent("篮球3","3号篮球场",endTime,ca.getTime(),"篮球",10,"","原子武士");
-
-    }
+//    @RequestMapping(value = "/insertEvent")
+////    @ResponseBody
+////    public int insertEvent(){
+////        //获取当前日期
+////        Date day=new Date();
+////        //调整成指定的格式
+////        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+////        //开始时间
+////        Date startTime=null;
+////        try {
+////            startTime = sdf.parse(sdf.format(day));
+////        } catch (ParseException e) {
+////            // TODO 自动生成 catch 块
+////            e.printStackTrace();
+////        }
+////        Calendar ca=Calendar.getInstance();
+////        ca.setTime(startTime);
+////        //这里我自己加了三个小时，根据具体的情况进行修改
+////        ca.add(Calendar.HOUR_OF_DAY, 3);
+////        //结束时间
+////        Date endTime = ca.getTime();
+////
+////
+////        //这里的数据是我自己写的，需要通过前端获得
+////        return eventService.insertEvent("篮球3","3号篮球场",endTime,ca.getTime(),"篮球",10,"","原子武士");
+////
+////    }
 
 
 }

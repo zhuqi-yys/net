@@ -2,6 +2,7 @@ package com.example.net.service;
 
 
 import com.example.net.dao.PersonDao;
+import com.example.net.entity.Person;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,7 +23,7 @@ public class PersonService {
         return personDao.findStudentIDByID(pid);
     }
 
-    public String login(String name,String studentid)
+    public Person login(String name, String studentid)
     {
         return personDao.login(name,studentid);
     }

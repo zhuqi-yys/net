@@ -1,0 +1,35 @@
+[
+  {
+    "eid": 1,
+    "name": "小明",
+    "location": "1号足球场",
+    "startTime": null,
+    "endTime": null,
+    "type": "足球",
+    "size": 24,
+    "remark": "上午8点，活动时长2小时",
+    "orginizer": "琦玉"
+  },
+  {
+    "eid": 1,
+    "name": "颤栗的龙卷",
+    "location": "1号足球场",
+    "startTime": null,
+    "endTime": null,
+    "type": "足球",
+    "size": 24,
+    "remark": "上午8点，活动时长2小时",
+    "orginizer": "琦玉"
+  },
+  {
+    "eid": 1,
+    "name": "小明",
+    "location": "1号足球场",
+    "startTime": null,
+    "endTime": null,
+    "type": "足球",
+    "size": 24,
+    "remark": "上午8点，活动时长2小时",
+    "orginizer": "琦玉"
+  }
+]

@@ -45,19 +45,19 @@ public class Info {
         this.evaluation = evaluation;
     }
 
-    public Info(String studnetId, String personName, String eventName, String location, Date startTime, Date endTime, String type, int size, String remark, String organizer, String evaluation) {
-        this.studnetId = studnetId;
-        this.personName = personName;
-        this.eventName = eventName;
-        this.location = location;
-        this.startTime = startTime;
-        this.endTime = endTime;
-        this.type = type;
-        this.size = size;
-        this.remark = remark;
-        this.organizer = organizer;
-        this.evaluation = evaluation;
-    }
+//    public Info(String studnetId, String personName, String eventName, String location, Date startTime, Date endTime, String type, int size, String remark, String organizer, String evaluation) {
+////        this.studnetId = studnetId;
+////        this.personName = personName;
+////        this.eventName = eventName;
+////        this.location = location;
+////        this.startTime = startTime;
+////        this.endTime = endTime;
+////        this.type = type;
+////        this.size = size;
+////        this.remark = remark;
+////        this.organizer = organizer;
+////        this.evaluation = evaluation;
+////    }
 
     public int getAid() {
         return aid;

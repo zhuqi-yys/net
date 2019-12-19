@@ -14,8 +14,8 @@
         pid = #{pid}
     </select>
 
-    <select id="login" resultType="String">
-        select name from person
+    <select id="login" resultType="com.example.net.entity.Person">
+        select * from person
         where name = #{name}
         and studentid = #{studentid}
 

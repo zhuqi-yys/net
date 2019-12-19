@@ -3,10 +3,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.net.dao.EventDao">
     <select id="findEventByName" resultType="com.example.net.entity.Event" >
-        select *
-        from event
-        where
-        name = #{name}
+        SELECT activity.aid,event.eid,person.pid,person.studentid,person.name,event.name eName,event.location,event.start_time,event.end_time,event.type,
+		event.size,event.remark,event.organizer,activity.evaluation
+        from person,event,activity
+        WHERE
+        person.pid = activity.pid AND
+        activity.eid = event.eid and
+        event.name = #{name};
     </select>
 
     <select id="findEventByType" resultType="com.example.net.entity.Event">
