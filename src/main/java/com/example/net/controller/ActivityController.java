@@ -4,6 +4,7 @@ package com.example.net.controller;
 import com.example.net.dao.AcvtityDao;
 import com.example.net.entity.Activity;
 import com.example.net.entity.Info;
+import com.example.net.entity.InfoWithSize;
 import com.example.net.service.ActivityService;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,8 +28,11 @@ public class ActivityController {
     //根据姓名进行查询 ，比如查    琦玉  参加了什么活动
     @RequestMapping(value = "/findInfoByName/{name}")
     @ResponseBody
-    public List<Info> findInfoByName(@PathVariable("name")String name){
-        return activityService.findInfoByName(name);
+    public InfoWithSize findInfoByName(@PathVariable("name")String name){
+
+       // return activityService.findInfoByName(name);
+
+        return new InfoWithSize(activityService.findInfoByName(name),activityService.findInfoByName(name).size());
     }
     //根据类型进行查询       比如查足球
     @RequestMapping(value = "/findInfoByType/{type}")
@@ -43,7 +47,6 @@ public class ActivityController {
     public int  insertActivity(@PathVariable("pid")int pid,@PathVariable("eid")int eid){
         return activityService.insertActivity(pid,eid);
     }
-
     @RequestMapping(value = "/findInfo")
     @ResponseBody
     public List<Info>  findInfo(){

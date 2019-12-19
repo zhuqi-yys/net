@@ -1,3 +1,53 @@
+GET https://127.0.0.1:8080/activity/findInfoByName/小明?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET locolhost:8080/activity/findInfoByName/小明?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://118.178.18.181:58015/activity/findInfoByName/小明?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T113606.200.json
+
+###
+
+POST http://118.178.18.181:58015/person/login?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T112106.200.txt
+
+###
+
+POST http://118.178.18.181:58015/person/login?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-18T052632.200.txt
+
+###
+
+POST http://118.178.18.181:58015/person/login?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-18T052621.200.txt
+
+###
+
 POST http://localhost:8080/person/login?name=琦玉&studentid=MF1932272
 Accept: */*
 Cache-Control: no-cache
