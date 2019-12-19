@@ -45,7 +45,17 @@ public class ActivityController {
     @RequestMapping(value = "/insertActivity/{pid}/{eid}")
     @ResponseBody
     public int  insertActivity(@PathVariable("pid")int pid,@PathVariable("eid")int eid){
-        return activityService.insertActivity(pid,eid);
+        Integer flag = activityService.search(eid,pid);
+        //System.out.println(flag);
+        if(flag==null)
+        {
+           // System.out.println(eid+"--"+pid);
+           return activityService.insertActivity(eid,pid);
+        }else
+        {
+            return -1;
+        }
+
     }
 
     @RequestMapping(value = "/findInfo")

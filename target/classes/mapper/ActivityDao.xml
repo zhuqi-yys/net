@@ -36,10 +36,16 @@
         from person,event,activity
     WHERE person.pid = activity.pid AND
     activity.eid = event.eid
-    ORDER BY event.start_time;
+    ORDER BY event.start_time DESC;
     </select>
 
-
+    <select id="search" resultType="Integer">
+        select aid
+        from activity
+        where
+        eid = #{eid} and
+        pid = #{pid}
+    </select>
 
 
 

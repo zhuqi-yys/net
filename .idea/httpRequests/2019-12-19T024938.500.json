@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576738178073,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.apache.ibatis.binding.BindingException",
+  "message": "Mapper method 'com.example.net.dao.AcvtityDao.search attempted to return null from a method with a primitive return type (int).",
+  "path": "/activity/insertActivity/1/6"
+}

@@ -37,5 +37,8 @@ public class ActivityService {
         return acvtityDao.findInfo();
     }
 
-
+    public Integer search(int eid,int pid)
+    {
+        return acvtityDao.search(eid,pid);
+    }
 }

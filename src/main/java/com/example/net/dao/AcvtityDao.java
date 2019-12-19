@@ -22,4 +22,6 @@ public interface AcvtityDao {
 
     List<Info> findInfo();
 
+    Integer search(@Param("eid")int eid,@Param("pid")int pid);
+
 }

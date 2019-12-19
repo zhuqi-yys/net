@@ -43,22 +43,24 @@ public class EventController {
         return eventService.findEventByType(type);
     }
 
-//    @RequestMapping("/login")
-//    @ResponseBody
-//    public int insertEvent(HttpServletRequest request, HttpServletResponse response) {
-//        RequestAndResponse.formmat(request,response);
-//        String name = request.getParameter("name");
-//        String location = request.getParameter("location");
-//       // Date startTime = request.getParameter("start_time");
-//        Date endTime = startTime;
-//        String type = request.getParameter("type");
-//      //  int size = request.getParameter("size");
-//        String remark = request.getParameter("remark");
-//        String organizer = request.getParameter("organizer");
+    @RequestMapping("/insertEvent")
+    @ResponseBody
+    public int insertEvent(HttpServletRequest request, HttpServletResponse response) {
+        RequestAndResponse.formmat(request,response);
+        String name = request.getParameter("name");
+        String location = request.getParameter("location");
+       // Date startTime = request.getParameter("start_time");
+        String data = request.getParameter("start_time");
+        String type = request.getParameter("type");
+      //  int size = request.getParameter("size");
+        String remark = request.getParameter("remark");
+        String organizer = request.getParameter("organizer");
 //        return eventService.insertEvent(name, location,
 //                startTime, endTime,type,
 //        size, remark, organizer);
-//    }
+
+        return 1;
+    }
     //发起一个活动，  这里面的数据都要从前端进行获取
 //    @RequestMapping(value = "/insertEvent")
 ////    @ResponseBody

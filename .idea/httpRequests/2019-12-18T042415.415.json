@@ -1,8 +1,0 @@
-{
-  "timestamp": 1576657455477,
-  "status": 415,
-  "error": "Unsupported Media Type",
-  "exception": "org.springframework.web.HttpMediaTypeNotSupportedException",
-  "message": "Content type '*/*;charset=UTF-8' not supported",
-  "path": "/person/login"
-}
