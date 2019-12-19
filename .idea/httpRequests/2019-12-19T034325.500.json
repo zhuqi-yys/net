@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576741405404,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.springframework.dao.TransientDataAccessResourceException",
+  "message": "Error attempting to get column 'type' from result set.  Cause: java.sql.SQLException: Cannot convert value 'è¶³ç' from column 5 to TIMESTAMP.\n; SQL []; Cannot convert value 'è¶³ç' from column 5 to TIMESTAMP.; nested exception is java.sql.SQLException: Cannot convert value 'è¶³ç' from column 5 to TIMESTAMP.",
+  "path": "/activity/findInfo"
+}

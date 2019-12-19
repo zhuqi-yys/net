@@ -1,6 +1,7 @@
 package com.example.net.service;
 
 import com.example.net.dao.AcvtityDao;
+import com.example.net.entity.Event;
 import com.example.net.entity.Info;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +34,7 @@ public class ActivityService {
         return  acvtityDao.insertActivity(eid,pid);
     }
 
-    public List<Info> findInfo(){
+    public List<Event> findInfo(){
         return acvtityDao.findInfo();
     }
 

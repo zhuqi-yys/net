@@ -2,6 +2,8 @@ package com.example.net.entity;
 
 
 
+
+
 import java.sql.Date;
 import java.util.Objects;
 
@@ -15,8 +17,20 @@ public class Event {
     Date endTime;
     String type;
     int size;
-    String organizer;
     String remark;
+    String organizer;
+
+    public Event(int eid, String name, String location, Date startTime, Date endTime, String type, int size, String remark, String organizer) {
+        this.eid = eid;
+        this.name = name;
+        this.location = location;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.type = type;
+        this.size = size;
+        this.remark = remark;
+        this.organizer = organizer;
+    }
 
     public int getEid() {
         return eid;

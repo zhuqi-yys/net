@@ -1,0 +1,8 @@
+{
+  "timestamp": 1576741482004,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.springframework.dao.TransientDataAccessResourceException",
+  "message": "Error attempting to get column 'type' from result set.  Cause: java.sql.SQLException: Bad format for DATE '足球' in column 5.\n; SQL []; Bad format for DATE '足球' in column 5.; nested exception is java.sql.SQLException: Bad format for DATE '足球' in column 5.",
+  "path": "/activity/findInfo"
+}

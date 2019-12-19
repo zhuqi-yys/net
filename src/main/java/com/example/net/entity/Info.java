@@ -9,8 +9,6 @@ public class Info {
     int eid;
     int pid;
 
-
-
     //person 相关信息
     String studnetId;//应该是person Id,但是数据库这样写了，就不改了
     String personName;

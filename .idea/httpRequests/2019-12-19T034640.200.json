@@ -1,0 +1,68 @@
+[
+  {
+    "eid": 3,
+    "name": "足球2",
+    "location": "2号足球场",
+    "startTime": "2019-12-16",
+    "endTime": "2019-12-31",
+    "type": "足球",
+    "size": 24,
+    "remark": "上午8点，活动时长2小时",
+    "orginizer": "龙卷"
+  },
+  {
+    "eid": 6,
+    "name": "篮球2",
+    "location": "2号篮球场",
+    "startTime": "2019-12-16",
+    "endTime": "2019-12-31",
+    "type": "篮球",
+    "size": 10,
+    "remark": "下午2点，活动时长2小时",
+    "orginizer": "饿狼"
+  },
+  {
+    "eid": 7,
+    "name": "篮球3",
+    "location": "3号篮球场",
+    "startTime": "2019-12-16",
+    "endTime": "2019-12-31",
+    "type": "篮球",
+    "size": 10,
+    "remark": "上午8点，活动时长2小时",
+    "orginizer": "原子武士"
+  },
+  {
+    "eid": 8,
+    "name": "象棋1",
+    "location": "1号象棋馆",
+    "startTime": "2019-12-16",
+    "endTime": "2019-12-31",
+    "type": "象棋",
+    "size": 100,
+    "remark": "晚上6点，活动时长2小时",
+    "orginizer": "King"
+  },
+  {
+    "eid": 1,
+    "name": "足球1",
+    "location": "1号足球场",
+    "startTime": "2019-12-12",
+    "endTime": "2019-12-31",
+    "type": "足球",
+    "size": 24,
+    "remark": "上午8点，活动时长2小时",
+    "orginizer": "琦玉"
+  },
+  {
+    "eid": 2,
+    "name": "篮球1",
+    "location": "1号篮球场",
+    "startTime": "2019-12-12",
+    "endTime": "2019-12-31",
+    "type": "篮球",
+    "size": 10,
+    "remark": "下午4点，活动时长2小时",
+    "orginizer": "饿狼"
+  }
+]

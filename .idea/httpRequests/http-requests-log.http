@@ -1,3 +1,102 @@
+POST http://localhost:8080/event/insertEvent?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T035746.200.json
+
+###
+
+POST http://localhost:8080/event/insertEvent?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizer=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T035639.200.json
+
+###
+
+POST http://localhost:8080/event/insertEvent?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizers=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T035623.200.json
+
+###
+
+POST http://localhost:8080/event/insertEvent?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizers=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T035407.200.json
+
+###
+
+POST http://localhost:8080/event/insertEvent?name=象棋99&location=8号象棋馆&start_time=2019-12-19&type=象棋&size=12&remark=12:00 ,持续2小时&organizers=小张
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T035103.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfo?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T034640.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfo?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T034442.500.json
+
+###
+
+GET http://localhost:8080/activity/findInfo?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T034325.500.json
+
+###
+
+GET http://localhost:8080/activity/findInfo?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T034006.200.json
+
+###
+
+GET http://localhost:8080/activity/findInfo?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T033902.200.json
+
+###
+
+GET http://localhost:8080/activity/insertActivity/2/8?name=琦玉&studentid=MF1932272
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-12-19T032952.200.json
+
+###
+
 GET http://localhost:8080/activity/insertActivity/2/8?name=琦玉&studentid=MF1932272
 Accept: */*
 Cache-Control: no-cache
@@ -342,101 +441,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 <> 2019-12-19T010141.200.json
-
-###
-
-GET http://127.0.0.1:8080/activity/findInfoByType/足球?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T010030.200.json
-
-###
-
-POST http://127.0.0.1:8080/person/login?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T125904.200.json
-
-###
-
-POST http://127.0.0.1:8080/person/login?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T125810.500.json
-
-###
-
-POST http://127.0.0.1:8080/person/login?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T125619.200.json
-
-###
-
-POST http://127.0.0.1:8080/person/login?name=小明&studentid=123
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T125319.200.txt
-
-###
-
-POST http://127.0.0.1:8080/person/login?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET http://127.0.0.1:8080/person/login?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET http://127.0.0.1:8080/event/findEventByName/足球1?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T125209.200.json
-
-###
-
-GET http://127.0.0.1:8080/event/findEventByType/足球?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T125143.200.json
-
-###
-
-GET http://127.0.0.1:8080/event/findEventByName/足球1?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T124954.200.json
-
-###
-
-GET http://127.0.0.1:8080/event/findEventByName/足球1?name=琦玉&studentid=MF1932272
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-12-19T115507.200.json
 
 ###
 

@@ -3,6 +3,7 @@ package com.example.net.controller;
 
 import com.example.net.dao.AcvtityDao;
 import com.example.net.entity.Activity;
+import com.example.net.entity.Event;
 import com.example.net.entity.Info;
 import com.example.net.entity.InfoWithSize;
 import com.example.net.service.ActivityService;
@@ -46,10 +47,8 @@ public class ActivityController {
     @ResponseBody
     public int  insertActivity(@PathVariable("pid")int pid,@PathVariable("eid")int eid){
         Integer flag = activityService.search(eid,pid);
-        //System.out.println(flag);
         if(flag==null)
         {
-           // System.out.println(eid+"--"+pid);
            return activityService.insertActivity(eid,pid);
         }else
         {
@@ -60,7 +59,7 @@ public class ActivityController {
 
     @RequestMapping(value = "/findInfo")
     @ResponseBody
-    public List<Info>  findInfo(){
+    public List<Event>  findInfo(){
         return activityService.findInfo();
     }
 

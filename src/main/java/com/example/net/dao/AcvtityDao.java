@@ -1,6 +1,7 @@
 package com.example.net.dao;
 
 
+import com.example.net.entity.Event;
 import com.example.net.entity.Info;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -20,7 +21,7 @@ public interface AcvtityDao {
 
     int insertActivity(@Param("eid")int eid,@Param("pid")int pid);
 
-    List<Info> findInfo();
+    List<Event> findInfo();
 
     Integer search(@Param("eid")int eid,@Param("pid")int pid);
 

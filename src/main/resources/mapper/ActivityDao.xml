@@ -30,12 +30,9 @@
         values(#{eid},#{pid})
     </insert>
 
-    <select id="findInfo" resultType="com.example.net.entity.Info">
-      SELECT activity.aid,event.eid,person.pid,person.studentid,person.name pName,event.name eName,event.location,event.start_time,event.end_time,event.type,
-		event.size,event.remark,event.organizer,activity.evaluation
-        from person,event,activity
-    WHERE person.pid = activity.pid AND
-    activity.eid = event.eid
+    <select id="findInfo" resultType="com.example.net.entity.Event">
+     SELECT eid,name,location,start_time,end_time,type,size,remark,organizer
+        from event
     ORDER BY event.start_time DESC;
     </select>
 
