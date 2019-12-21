@@ -74,7 +74,7 @@ public class ActivityController {
     @ResponseBody
     public int  insertEvaluation(@PathVariable("pid")int pid,@PathVariable("eid")int eid,@PathVariable("evaluation")String evaluation){
 
-        return activityService.updateEvaluation(pid,eid,evaluation);
+        return activityService.updateEvaluation(eid,pid,evaluation);
 
     }
 
